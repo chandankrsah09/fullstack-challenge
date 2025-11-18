@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorDatabase
-from .models import UserRole, Country, OrderStatus, PaymentMethodType
-from .auth import hash_password
+from models import UserRole, Country, OrderStatus, PaymentMethodType
+from auth import hash_password
 from datetime import datetime, timezone
 import uuid
 import logging
