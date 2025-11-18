@@ -1,7 +1,7 @@
 from fastapi import HTTPException, Header, Depends
 from typing import Optional
-from .auth import decode_access_token
-from .models import UserRole, Country, User
+from auth import decode_access_token
+from models import UserRole, Country, User
 import logging
 
 logger = logging.getLogger(__name__)
